@@ -1,0 +1,26 @@
+@use '../config/variable.scss';
+@use '../config/reset.scss';
+
+body{
+    background-color: variable.$firstColor;
+}
+
+h1{
+    color: rgb(235, 235, 239);
+    text-align: variable.$tituloFirst;
+    padding: variable.$espacamento;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: variable.$tamanhoImagem;
+}
+
+img{
+
+    padding: variable.$espacamento;
+    display: block;
+    max-width: variable.$tamanhoImagem;
+}
